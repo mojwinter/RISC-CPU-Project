@@ -1,3 +1,5 @@
+*Note: Project was completed in ELEC 374 April 2024*
+
 # Abstract
 
 This project presents the development of a Reduced Instruction Set Computing (RISC) CPU using Verilog, aiming to progressively expand its capabilities from basic arithmetic operations to encompass more intricate instructions and processor elements. Utilizing Intel Quartus Prime for design, the project progresses through various phases focusing on datapath construction, memory subsystem integration, logic implementation for instruction selection and encoding, conditional branching, and the control unit. Challenges encountered during hardware execution proved difficult for the team and eventually led to incompletion of the final part of the last phase of the project. However, despite this obstacle, significant milestones were achieved, and the project was a great educational experience for all team members. Future improvements will focus on addressing hardware execution challenges and optimizing performance metrics, to hopefully eventually get the system running on an FPGA.
