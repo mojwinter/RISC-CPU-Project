@@ -1,4 +1,4 @@
-*Note: Project was completed in ELEC 374 April 2024*
+> **Note:** Project was completed in ELEC 374, April 2024.
 
 # Abstract
 
