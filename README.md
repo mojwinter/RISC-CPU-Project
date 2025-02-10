@@ -113,7 +113,7 @@ To calculate the CPI of the test programs, we must divide the time the program t
 **Run signal high** = 5320ns - 40ns = 5280ns  
 
 $$
-CPI = \frac{\text{Time}}{\text{period} \times \# \text{instr.}} = \frac{5280ns}{20ns \times 44} = 6 \text{ cycles/instruction}
+CPI = \frac{\text{Time}}{\text{period} \times \text{\# instr.}} = \frac{5280ns}{20ns \times 44} = 6 \text{ cycles/instruction}
 $$
 
 **Phase 4**
