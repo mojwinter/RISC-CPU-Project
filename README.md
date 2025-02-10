@@ -112,10 +112,9 @@ To calculate the CPI of the test programs, we must divide the time the program t
 
 **Run signal high** = 5320ns - 40ns = 5280ns  
 
-\[
-CPI = \frac{Time}{period \times \# instr.} = \frac{5280ns}{20ns \times 44} = 6 \text{ cycles/instruction}
-\]
-
+$$
+CPI = \frac{\text{Time}}{\text{period} \times \# \text{instr.}} = \frac{5280ns}{20ns \times 44} = 6 \text{ cycles/instruction}
+$$
 
 **Phase 4**
 
@@ -125,9 +124,9 @@ It is worth noting that this calculation was performed on the adapted program fo
 
 **Run signal high** = 63580 ns - 40ns = 63540ns  
 
-\[
+$$
 CPI = \frac{Time}{period \times \# instr.} = \frac{63540ns}{20ns \times 530} = 5.99 \text{ cycles/instruction}
-\]
+$$
 
 The results of the phase 3 and phase 4 calculation match expectations as both values are close to the average instruction length of 5.7 as calculated above.
 
