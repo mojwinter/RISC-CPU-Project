@@ -182,6 +182,8 @@ In the future, the group would like to get the RISC computer executing instructi
 
 Additionally, the team would investigate optimizing some key instructions and streamline the execution of frequently used operations to improve the overall efficiency and performance of the processor. In a real-world implementation, energy efficiency and low heat dissipation are crucial in modern CPUs and working to optimize instructions would improve our system in those departments, to mimic how a real computer architecture team would look to improve their processor. Plus, as the CPU’s capabilities grow with development, the scalability will be important and optimizing basic instructions, especially those accessed by other instructions, will have a significant impact on the processor’s performance.
 
+Credit: Mitchell Winter, Logan White, Zeph Van Iterson 
+
 # Appendix
 
 ## Functional Simulation
