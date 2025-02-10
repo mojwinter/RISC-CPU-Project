@@ -125,7 +125,7 @@ It is worth noting that this calculation was performed on the adapted program fo
 **Run signal high** = 63580 ns - 40ns = 63540ns  
 
 $$
-CPI = \frac{Time}{period \times \# instr.} = \frac{63540ns}{20ns \times 530} = 5.99 \text{ cycles/instruction}
+CPI = \frac{Time}{period \times \N instr.} = \frac{63540ns}{20ns \times 530} = 5.99 \text{ cycles/instruction}
 $$
 
 The results of the phase 3 and phase 4 calculation match expectations as both values are close to the average instruction length of 5.7 as calculated above.
