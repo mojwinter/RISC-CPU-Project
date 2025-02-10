@@ -129,9 +129,8 @@ To calculate the CPI of the test programs, we must divide the time the program t
 
 **Phase 3**
 
-**Num instructions** = 44  
-
-**Run signal high** = 5320ns - 40ns = 5280ns  
+- **Num instructions** = 44
+- **Run signal high** = \( 5320\text{ns} - 40\text{ns} = 5280\text{ns} \)
 
 $$
 CPI = \frac{\text{Time}}{\text{period} \times \text{N instr.}} = \frac{5280ns}{20ns \times 44} = 6 \text{ cycles/instruction}
@@ -141,9 +140,8 @@ $$
 
 It is worth noting that this calculation was performed on the adapted program for use in the simulation which has a delay of 0x2 rather than 0xFFFF between each hex display change. This will slightly affect the results as there are significantly less `subi` instructions being performed in the waiting loop, however, the results should still provide insight.
 
-**Num instructions** = 530  
-
-**Run signal high** = 63580 ns - 40ns = 63540ns  
+- **Num instructions** = 530  
+- **Run signal high** = \( 63580\text{ns} - 40\text{ns} = 63540\text{ns} \)
 
 $$
 CPI = \frac{\text{Time}}{period \times \text{N instr.}} = \frac{63540ns}{20ns \times 530} = 5.99 \text{ cycles/instruction}
